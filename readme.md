@@ -1,8 +1,4 @@
 # Centrality Preserved Sparsifier Graph Convolutional Network (CPSGCN)
-Since some of the included GNN models have conflicting version of dependencies (e.g., different version of NetworkX), this repository is organized as follows:
-
-
-
 ## Setup & Package Installation
 Note that these instructions are written for Linux (Ubuntu 22.04 LTS) with NVIDIA driver version 525.125.06.
 
@@ -74,10 +70,19 @@ available models ranges from CPSGCN, ACPSGCN, SSP, SGCN, and GraphSAGE
 *Note that it can takes tens of hours or even days to run a full-on experiment evaluating any model on any dataset. (we were running our experiment with RTX 4080 + Ryzen Gen 7)
 
 To run direct comparison execute the model file directly with direct_comparison argument, e.g.
+For CPSGCN model:
 ```
-$ python CPSGCN.py --use_gpu --dataset Cora --centrality CC --direct_experiment 
+$ python CPSGCN.py --use_gpu --dataset Cora --centrality CC --direct_experiment
 ```
-
+For mACPSGCN and zACPSGCN model:
+```
+$ python ACPSGCN.py --use_gpu --dataset Cora --centrality DC_BC_EC --ac_select minmax --direct_experiment
+$ python ACPSGCN.py --use_gpu --dataset Cora --centrality DC_BC_EC --ac_select zscore --direct_experiment
+```
+For DACPSGCN model:
+```
+$ python DACPSGCN.py --use_gpu --dataset Cora --direct_experiment
+```
 ### Parallel Execution
 As it can take a long time to run experiments and sometimes the experiment can be interrupted due to various reasons. Hence, to allow the evaluation to continue even after interruption or to maximise parallel execution, we designed our code as follows:
 
