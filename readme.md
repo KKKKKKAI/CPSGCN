@@ -60,6 +60,7 @@ $ python prepare_configs.py
 ```
 
 ### Executing Main Benchmarks & CPSGCN, mACPSGCN, zACPSGCN, and DACPSGCN
+#### K-fold CV
 After preparations, to execute K-fold CV on different models, run:
 ```
 $ pythoon cross_validation.py --dataset Cora --model CPSGCN
@@ -67,9 +68,10 @@ $ pythoon cross_validation.py --dataset Cora --model CPSGCN
 where dataset can be Cora or CiteSeer, 
 available models ranges from CPSGCN, ACPSGCN, SSP, SGCN, and GraphSAGE
 
-*Note that it can takes tens of hours or even days to run a full-on experiment evaluating any model on any dataset. (we were running our experiment with RTX 4080 + Ryzen Gen 7)
+*Note that it can takes tens of hours or even days to run a full-on experiment evaluating a model on a dataset. (we were running our experiment with RTX 4080 + Ryzen Gen 7)
 
-To run direct comparison execute the model file directly with direct_comparison argument, e.g.
+#### Direct Comparison
+To run direct comparison (evaluating models using methods deployed in SSP) execute the model file directly with direct_comparison argument, e.g.
 For CPSGCN model:
 ```
 $ python CPSGCN.py --use_gpu --dataset Cora --centrality CC --direct_comparison
@@ -118,7 +120,7 @@ $ python cross_validation --dataset Cora --model CPSGCN
 again to collect analysis of the experiment result
 
 ### File Usages
-Description of files used in our repo can be find in the image attached:
+Description of files used in our repo can be found below:
 ![Repo Description](images/repo_description.png)
 
 
