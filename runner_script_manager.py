@@ -87,7 +87,7 @@ def generate_runner(configs, runner_path, output_path):
         if "test_run" in configs:
             test_run = "--test_run"
         
-        execution_line = "python benchmark_models/GraphSAGE.py {0} --total_epochs {1} --dest {2} --dataset {3} --hidden_units {4} --lr {5} --num_layers {6} --aggregation {7} --outer_k {8} --inner_k {9} {10}\n"
+        execution_line = "python benchmark_models/GraphSAGE/GraphSAGE.py {0} --total_epochs {1} --dest {2} --dataset {3} --hidden_units {4} --lr {5} --num_layers {6} --aggregation {7} --outer_k {8} --inner_k {9} {10}\n"
         execution_line = execution_line.format(use_gpu, total_epochs, dest, dataset_name, hidden_units, lr, num_layers, aggregation, outer_i, inner_j, test_run)
     
     elif configs["model"] == "DACPSGCN":
