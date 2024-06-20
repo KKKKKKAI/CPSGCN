@@ -1,0 +1,1 @@
+{"model": ["MLPBaseline"], "use_gpu": [true], "epochs": [400], "hidden_units": [32, 128], "learning_rate": [0.001, 0.1], "l2": [0.0001, 0.001, 0.01]}

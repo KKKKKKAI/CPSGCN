@@ -1,0 +1,3 @@
+python benchmark_models/sgcn/sgcn.py --use_gpu --epochs 400 --dest results/SGCN_Cora/outer_fold_2/model_assess/iteration_0 --dataset Cora --ratio_weight 70 --ratio_graph 50 --w_lr 0.02 --adj_lr 0.0001 --outer_k 2 --inner_k 1 --test_run
+python benchmark_models/sgcn/sgcn.py --use_gpu --epochs 400 --dest results/SGCN_Cora/outer_fold_2/model_assess/iteration_1 --dataset Cora --ratio_weight 70 --ratio_graph 50 --w_lr 0.02 --adj_lr 0.0001 --outer_k 2 --inner_k 1 --test_run
+python benchmark_models/sgcn/sgcn.py --use_gpu --epochs 400 --dest results/SGCN_Cora/outer_fold_2/model_assess/iteration_2 --dataset Cora --ratio_weight 70 --ratio_graph 50 --w_lr 0.02 --adj_lr 0.0001 --outer_k 2 --inner_k 1 --test_run

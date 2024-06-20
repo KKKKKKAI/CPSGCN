@@ -1,0 +1,3 @@
+python benchmark_models/GraphSAGE.py --use_gpu --total_epochs 400 --dest results/GraphSAGE_Cora/outer_fold_2/model_assess/iteration_0 --dataset Cora --hidden_units 64 --lr 0.01 --num_layers 3 --aggregation max --outer_k 2 --inner_k 1 --test_run
+python benchmark_models/GraphSAGE.py --use_gpu --total_epochs 400 --dest results/GraphSAGE_Cora/outer_fold_2/model_assess/iteration_1 --dataset Cora --hidden_units 64 --lr 0.01 --num_layers 3 --aggregation max --outer_k 2 --inner_k 1 --test_run
+python benchmark_models/GraphSAGE.py --use_gpu --total_epochs 400 --dest results/GraphSAGE_Cora/outer_fold_2/model_assess/iteration_2 --dataset Cora --hidden_units 64 --lr 0.01 --num_layers 3 --aggregation max --outer_k 2 --inner_k 1 --test_run

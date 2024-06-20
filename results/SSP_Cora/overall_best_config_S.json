@@ -1,0 +1,1 @@
+{"configs": {"model": "SSP", "use_gpu": true, "epochs": 400, "dataset_name": "Cora", "data_mask": [0, 1], "preconditioner": "KFAC", "optimizer": "SGD", "hyperparam": "gamma", "lr": 0.01, "hidden": 32, "dropout": 0.5, "gamma": 7.0, "test_run": true}, "final_acc": 0.8983364140480591, "final_sd": 1.1102230246251565e-16}

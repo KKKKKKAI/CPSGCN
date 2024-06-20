@@ -1,0 +1,1 @@
+{"model": "GraphSAGE", "use_gpu": true, "epochs": 400, "dataset_name": "Cora", "data_mask": [3, 0], "num_layers": 5, "hidden_units": 32, "lr": 0.01, "aggregation": "max"}

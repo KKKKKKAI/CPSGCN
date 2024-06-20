@@ -1,0 +1,1 @@
+{"model": ["ACPSGCN"], "use_gpu": [true], "epochs": [400], "adj_lr": [0.001], "w_lr": [0.03], "centrality": ["BC_DC", "BC_CC", "BC_EC", "DC_CC", "DC_EC", "CC_EC", "BC_DC_CC", "BC_DC_EC", "BC_EC_CC", "DC_CC_EC", "BC_DC_CC_EC"], "prune_ratio": [10, 30, 50, 70, 90], "preserve_rate": [90, 95, 97, 99], "ac_select": ["minmax", "zscore"]}

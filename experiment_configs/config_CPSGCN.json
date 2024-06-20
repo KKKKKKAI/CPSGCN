@@ -1,0 +1,1 @@
+{"model": ["CPSGCN"], "use_gpu": [true], "epochs": [400], "adj_lr": [0.001, 0.0001], "w_lr": [0.01, 0.02, 0.03], "centrality": ["RAND", "BC", "DC", "PR", "EC", "CC"], "prune_ratio": [10, 30, 50, 70, 90], "preserve_rate": [90, 95, 97, 99]}

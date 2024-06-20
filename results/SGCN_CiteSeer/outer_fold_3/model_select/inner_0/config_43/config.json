@@ -1,0 +1,1 @@
+{"model": "SGCN", "use_gpu": true, "epochs": 400, "dataset_name": "CiteSeer", "data_mask": [3, 0], "ratio_weight": 30, "ratio_graph": 50, "adj_lr": 0.001, "w_lr": 0.02}

@@ -1,0 +1,1 @@
+{"model": "SSP", "use_gpu": true, "epochs": 400, "dataset_name": "Cora", "data_mask": [0, 0], "preconditioner": "KFAC", "optimizer": "SGD", "hyperparam": "gamma", "lr": 0.001, "hidden": 16, "dropout": 0.05, "gamma": 9.0}

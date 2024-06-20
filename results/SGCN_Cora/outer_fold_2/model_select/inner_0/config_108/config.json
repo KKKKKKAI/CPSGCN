@@ -1,0 +1,1 @@
+{"model": "SGCN", "use_gpu": true, "epochs": 400, "dataset_name": "Cora", "data_mask": [2, 0], "ratio_weight": 70, "ratio_graph": 70, "adj_lr": 0.001, "w_lr": 0.01}

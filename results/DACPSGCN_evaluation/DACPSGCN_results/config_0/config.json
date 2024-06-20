@@ -1,0 +1,1 @@
+{"model": "DACPSGCN", "centrality": "BC_EC", "use_gpu": true, "adj_lr": 0.001, "w_lr": 0.02, "prune_ratio": 50, "preserve_rate": 97, "dataset_name": "Cora", "ac_select": "minmax", "BC_sf": 3.0, "EC_sf": 1.1}

@@ -1,0 +1,1 @@
+{"config": {"model": "ACPSGCN", "use_gpu": true, "epochs": 400, "dataset_name": "Cora", "data_mask": [3, 1], "adj_lr": 0.0001, "w_lr": 0.02, "centrality": "BC_EC_CC", "prune_ratio": 30, "preserve_rate": 95, "ac_select": "minmax"}, "acc": 0.8910433979686058}

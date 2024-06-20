@@ -1,0 +1,1 @@
+{"configs": {"model": "SSP", "use_gpu": true, "epochs": 400, "dataset_name": "CiteSeer", "data_mask": [1, 1], "preconditioner": "", "optimizer": "Adam", "hyperparam": "gamma", "lr": 0.01, "hidden": 32, "dropout": 0.0, "gamma": 8.0, "test_run": true}, "outer_test_acc": 0.7659147869674184, "outer_test_sd": 0.0007088789786331252}

@@ -1,0 +1,3 @@
+python benchmark_models/ssp/gcn.py --epochs 400 --dest results/SSP_Cora/outer_fold_4/model_assess/iteration_0 --dataset Cora --lr 0.01 --hidden 32 --dropout 0.5 --optimizer Adam  --hyperparam gamma  --gamma 7.0   --outer_k 4 --inner_k 1 --test_run
+python benchmark_models/ssp/gcn.py --epochs 400 --dest results/SSP_Cora/outer_fold_4/model_assess/iteration_1 --dataset Cora --lr 0.01 --hidden 32 --dropout 0.5 --optimizer Adam  --hyperparam gamma  --gamma 7.0   --outer_k 4 --inner_k 1 --test_run
+python benchmark_models/ssp/gcn.py --epochs 400 --dest results/SSP_Cora/outer_fold_4/model_assess/iteration_2 --dataset Cora --lr 0.01 --hidden 32 --dropout 0.5 --optimizer Adam  --hyperparam gamma  --gamma 7.0   --outer_k 4 --inner_k 1 --test_run

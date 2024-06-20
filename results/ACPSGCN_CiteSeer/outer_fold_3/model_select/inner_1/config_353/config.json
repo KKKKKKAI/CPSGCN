@@ -1,0 +1,1 @@
+{"model": "ACPSGCN", "use_gpu": true, "epochs": 400, "dataset_name": "CiteSeer", "data_mask": [3, 1], "adj_lr": 0.001, "w_lr": 0.03, "centrality": "BC_EC_CC", "prune_ratio": 90, "preserve_rate": 90, "ac_select": "zscore"}

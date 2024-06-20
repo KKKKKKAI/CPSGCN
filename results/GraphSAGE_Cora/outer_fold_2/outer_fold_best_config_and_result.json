@@ -1,0 +1,1 @@
+{"configs": {"model": "GraphSAGE", "use_gpu": true, "epochs": 400, "dataset_name": "Cora", "data_mask": [2, 1], "num_layers": 3, "hidden_units": 64, "lr": 0.01, "aggregation": "max", "test_run": true}, "outer_test_acc": 0.8576709796672827, "outer_test_sd": 0.016324881453471086}

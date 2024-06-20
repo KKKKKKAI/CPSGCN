@@ -1,0 +1,1 @@
+{"configs": {"model": "SGCN", "use_gpu": true, "epochs": 400, "dataset_name": "CiteSeer", "data_mask": [3, 1], "ratio_weight": 90, "ratio_graph": 50, "adj_lr": 0.001, "w_lr": 0.03, "test_run": true}, "outer_test_acc": 0.6893333333333334, "outer_test_sd": 0.004189935029992144}

@@ -1,0 +1,3 @@
+python CPSGCN.py --use_gpu --total_epochs 400 --dest results/CPSGCN_CiteSeer/outer_fold_2/model_assess/iteration_0 --dataset_name CiteSeer --w_lr 0.02 --adj_lr 0.001 --prune_ratio 30 --preserve_rate 97 --centrality EC --outer_k 2 --inner_k 1 --test_run
+python CPSGCN.py --use_gpu --total_epochs 400 --dest results/CPSGCN_CiteSeer/outer_fold_2/model_assess/iteration_1 --dataset_name CiteSeer --w_lr 0.02 --adj_lr 0.001 --prune_ratio 30 --preserve_rate 97 --centrality EC --outer_k 2 --inner_k 1 --test_run
+python CPSGCN.py --use_gpu --total_epochs 400 --dest results/CPSGCN_CiteSeer/outer_fold_2/model_assess/iteration_2 --dataset_name CiteSeer --w_lr 0.02 --adj_lr 0.001 --prune_ratio 30 --preserve_rate 97 --centrality EC --outer_k 2 --inner_k 1 --test_run

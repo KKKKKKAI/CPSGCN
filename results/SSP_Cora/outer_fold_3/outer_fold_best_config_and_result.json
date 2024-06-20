@@ -1,0 +1,1 @@
+{"configs": {"model": "SSP", "use_gpu": true, "epochs": 400, "dataset_name": "Cora", "data_mask": [3, 1], "preconditioner": "", "optimizer": "Adam", "hyperparam": "gamma", "lr": 0.01, "hidden": 32, "dropout": 0.5, "gamma": 5.0, "test_run": true}, "outer_test_acc": 0.8576709796672827, "outer_test_sd": 1.1102230246251565e-16}

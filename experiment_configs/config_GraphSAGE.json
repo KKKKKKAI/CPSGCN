@@ -1,0 +1,1 @@
+{"model": ["GraphSAGE"], "use_gpu": [true], "epochs": [400], "num_layers": [3, 5], "hidden_units": [32, 64], "lr": [0.01, 0.001, 0.0001], "aggregation": ["mean", "max", "sum"]}

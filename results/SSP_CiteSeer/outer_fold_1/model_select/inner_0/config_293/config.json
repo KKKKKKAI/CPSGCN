@@ -1,0 +1,1 @@
+{"model": "SSP", "use_gpu": true, "epochs": 400, "dataset_name": "CiteSeer", "data_mask": [1, 0], "preconditioner": "KFAC", "optimizer": "Adam", "hyperparam": "gamma", "lr": 0.001, "hidden": 32, "dropout": 0.05, "gamma": 2.0}

@@ -1,0 +1,1 @@
+{"configs": {"model": "ACPSGCN", "use_gpu": true, "epochs": 400, "dataset_name": "CiteSeer", "data_mask": [4, 1], "adj_lr": 0.001, "w_lr": 0.03, "centrality": "CC_EC", "prune_ratio": 10, "preserve_rate": 97, "ac_select": "minmax", "test_run": true}, "outer_test_acc": 0.7749122807017544, "outer_test_sd": 0.0154491228070172187}

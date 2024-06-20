@@ -1,0 +1,1 @@
+{"configs": {"model": "SGCN", "use_gpu": true, "epochs": 400, "dataset_name": "Cora", "data_mask": [1, 1], "ratio_weight": 10, "ratio_graph": 30, "adj_lr": 0.0001, "w_lr": 0.01, "test_run": true}, "outer_test_acc": 0.799, "outer_test_sd": 0.006976149845485456}

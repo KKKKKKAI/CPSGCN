@@ -1,0 +1,3 @@
+python CPSGCN.py --use_gpu --total_epochs 400 --dest results/CPSGCN_Cora/outer_fold_3/model_assess/iteration_0 --dataset_name Cora --w_lr 0.02 --adj_lr 0.0001 --prune_ratio 30 --preserve_rate 90 --centrality PR --outer_k 3 --inner_k 1 --test_run
+python CPSGCN.py --use_gpu --total_epochs 400 --dest results/CPSGCN_Cora/outer_fold_3/model_assess/iteration_1 --dataset_name Cora --w_lr 0.02 --adj_lr 0.0001 --prune_ratio 30 --preserve_rate 90 --centrality PR --outer_k 3 --inner_k 1 --test_run
+python CPSGCN.py --use_gpu --total_epochs 400 --dest results/CPSGCN_Cora/outer_fold_3/model_assess/iteration_2 --dataset_name Cora --w_lr 0.02 --adj_lr 0.0001 --prune_ratio 30 --preserve_rate 90 --centrality PR --outer_k 3 --inner_k 1 --test_run
