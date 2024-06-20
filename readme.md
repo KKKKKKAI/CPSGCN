@@ -72,17 +72,30 @@ available models ranges from CPSGCN, ACPSGCN, SSP, SGCN, and GraphSAGE
 To run direct comparison execute the model file directly with direct_comparison argument, e.g.
 For CPSGCN model:
 ```
-$ python CPSGCN.py --use_gpu --dataset Cora --centrality CC --direct_experiment
+$ python CPSGCN.py --use_gpu --dataset Cora --centrality CC --direct_comparison
 ```
 For mACPSGCN and zACPSGCN model:
 ```
-$ python ACPSGCN.py --use_gpu --dataset Cora --centrality DC_BC_EC --ac_select minmax --direct_experiment
-$ python ACPSGCN.py --use_gpu --dataset Cora --centrality DC_BC_EC --ac_select zscore --direct_experiment
+$ python ACPSGCN.py --use_gpu --dataset Cora --centrality DC_BC_EC --ac_select minmax --direct_comparison
+$ python ACPSGCN.py --use_gpu --dataset Cora --centrality DC_BC_EC --ac_select zscore --direct_comparison
 ```
 For DACPSGCN model:
 ```
-$ python DACPSGCN.py --use_gpu --dataset Cora --direct_experiment
+$ python DACPSGCN.py --use_gpu --dataset Cora --direct_comparison
 ```
+For SSP model:
+```
+$ python benchmark_models/ssp/gcn.py --use_gpu --dataset Cora --direct_comparison
+```
+For SGCN model:
+```
+$ python benchmark_models/sgcn/sgcn.py --use_gpu --dataset Cora --direct_comparison
+```
+For GraphSAGE model:
+```
+$ python benchmark_models/GraphSAGE.py --use_gpu --dataset Cora --direct_comparison
+```
+
 ### Parallel Execution
 As it can take a long time to run experiments and sometimes the experiment can be interrupted due to various reasons. Hence, to allow the evaluation to continue even after interruption or to maximise parallel execution, we designed our code as follows:
 
