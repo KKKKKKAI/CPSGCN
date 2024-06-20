@@ -95,7 +95,7 @@ $ python benchmark_models/sgcn/sgcn.py --use_gpu --dataset Cora --direct_compari
 ```
 For GraphSAGE model:
 ```
-$ python benchmark_models/GraphSAGE.py --use_gpu --dataset Cora --direct_comparison
+$ python benchmark_models/GraphSAGE/GraphSAGE.py --use_gpu --dataset Cora --direct_comparison
 ```
 
 ### Parallel Execution
